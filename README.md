@@ -12,6 +12,10 @@ React · Django · MySQL · Redis · OpenCV · C++17 · Docker
 
 MicroSight demonstrates the core engineering building blocks of a whole-slide imaging workflow. It accepts common microscopy-image formats, generates a disk-backed image pyramid, streams viewport-derived tiles to a React viewer, and exposes experimental OpenCV-based visual heuristics. A deterministic C++ scanner simulator reports scan events through Django and Django Channels to the browser over WebSockets.
 
+## Public demo
+
+After the deployment workflow runs, the device-friendly interactive demo is available at **https://sagarwal-bit.github.io/microsight/**. It uses a safe synthetic slide and runs entirely in the browser: pan, zoom, inspect sample overlays, add a note, and run experimental analysis. It needs no account, download, API server, or medical data. For uploads and the full scanner/API workflow, run the Docker stack locally.
+
 ## Key features
 
 - Upload PNG, JPEG, TIFF, or WebP microscopy images.
